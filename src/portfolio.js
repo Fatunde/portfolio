@@ -5,25 +5,24 @@ import github from "./assets/img/icons/common/github.svg";
 import airbnb from "./assets/img/icons/common/airbnbLogo.png";
 
 export const greetings = {
-	name: "Hanzla Tauqeer",
-	title: "Hi all, I'm Hanzla",
+	name: "Fatunde Damilare",
+	title: "Hi all, I'm Damilare",
 	description:
-		"A passionate Full Stack Web Developer and Mobile App Developer having an experience of building Web applications with JavaScript / Reactjs / Nodejs / Python / Django / Flask and some other cool libraries and frameworks and Cross Platform Mobile Apps With Flutter.",
-	resumeLink: "https://cv.hanzla.ga",
+		"A passionate Full Stack Web Developer and Mobile App Developer having an experience of building Web applications with JavaScript / Reactjs / Nodejs / Vue / Laravel  and some other cool libraries and frameworks and Cross Platform Mobile Apps With React Native.",
+	resumeLink: "https://s3.amazonaws.com/archivos-cvonline/assets/pdf/1160901/CV_2021-06-08-1245231.pdf",
 };
 
 export const openSource = {
-	githubUserName: "1hanzla100",
+	githubUserName: "Fatunde",
 };
 
 export const contact = {};
 
 export const socialLinks = {
-	facebook: "https://www.facebook.com/1hanzla100",
-	instagram: "https://www.instagram.com/1hanzla100",
-	twitter: "https://twitter.com/1hanzla100",
-	github: "https://github.com/1hanzla100",
-	linkedin: "https://www.linkedin.com/in/hanzla-tauqeer-0869281ba/",
+	facebook: "https://www.facebook.com/profile.php?id=100008330640707",
+	github: "https://github.com/Fatunde",
+	linkedin: "https://www.linkedin.com/in/fatunde-damilare-a8a912200",
+	email: "mailto:fatundedamilare@gmailcom",
 };
 
 export const skillsSection = {
@@ -36,10 +35,7 @@ export const skillsSection = {
 		),
 		emoji(
 			"⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"
-		),
-		emoji(
-			"⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
-		),
+		)
 	],
 
 	softwareSkills: [
@@ -117,7 +113,7 @@ export const skillsSection = {
 export const SkillBars = [
 	{
 		Stack: "Frontend/Design", //Insert stack or technology you have experience in
-		progressPercentage: "90", //Insert relative proficiency in percentage
+		progressPercentage: "80", //Insert relative proficiency in percentage
 	},
 	{
 		Stack: "Backend",
@@ -131,80 +127,70 @@ export const SkillBars = [
 
 export const educationInfo = [
 	{
-		schoolName: "Harvard University",
-		subHeader: "Master of Science in Computer Science",
-		duration: "September 2017 - April 2019",
-		desc: "Participated in the research of XXX and published 3 papers.",
+		schoolName: "Setma Comprehensive College",
+		subHeader: "West Africa Senior Secondary Certificate",
+		duration: "September 2009 - April 2015",
+		desc: "Holding a prefectship position as the school laboratory prefect.",
 		descBullets: [
-			"Lorem ipsum dolor sit amet, consectetur adipdfgiscing elit",
-			"Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+			"Joint collaboration with colleagues to build a simple web page",
 		],
 	},
+
 	{
-		schoolName: "Harvard",
-		subHeader: "Master of Science in Computer Science",
-		duration: "September 2017 - April 2019",
-		desc: "Participated in the research of XXX and published 3 papers.",
+		schoolName: "Nigerian Army College of Education and Environmental Studies",
+		subHeader: "Ordinary National Diploma in Computer Science",
+		duration: "September 2017 - October 2019",
+		desc: "Participated in various tech school organization, ...",
 		descBullets: [
-			"Lorem ipsum dolor sit amet, consectetfgur adipiscing elit",
-			"Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-		],
-	},
-	{
-		schoolName: "Stanford University",
-		subHeader: "Bachelor of Science in Computer Science",
-		duration: "September 2013 - April 2017",
-		desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-		descBullets: [
-			"Lorem ipsum dolorfdg sit amet, consectetur adipiscing elit",
+			"Developed a system that manages the course assignment to all lecturers in the institution",
 		],
 	},
 ];
 
 export const experience = [
 	{
-		role: "Software Engineer",
-		company: "Google",
-		companylogo: googlelogo,
-		date: "June 2018 – Present",
-		desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-		descBullets: [
-			"Lorem ipsum dolor sit amet, consdfgectetur adipiscing elit",
-			"Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-		],
+		role: "Fullstack Developer",
+		company: "Goflux Services Limited",
+	//	companylogo: googlelogo,
+		date: "January 2021 – Present",
+		desc: "I worked as a fullstack developer in developing few projects which includes web applications, mobile applications and rest api.",
 	},
 	{
 		role: "Front-End Developer",
-		company: "Github",
-		companylogo: github,
-		date: "May 2017 – May 2018",
-		desc: "Lorem ipsum dolor sit amet, consefdctetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+		company: "Credpal",
+	//	companylogo: github,
+		date: "July 2020 – January 2021",
+		desc: "I worked as a front end developer contributing to various project as a team player.",
 	},
 	{
-		role: "Software Engineer Intern",
-		company: "Airbnb",
-		companylogo: airbnb,
-		date: "Jan 2015 – Sep 2015",
-		desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+		role: "Software Developer Intern",
+		company: "Ensemble Lab Limited",
+	//	companylogo: airbnb,
+		date: "November 2019 – May 2020",
+		desc: "I worked as an intern software developer, which i contributed to few projects and also worked on support",
 	},
 ];
 
 export const projects = [
 	{
-		name: "lorem ipsum",
-		desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
-		link: "https://example.com",
+		name: "Goflux Services Limited official website",
+		desc: "Created and design major components in the website",
+		link: "https://gofluxservices.com.ng/",
 	},
 	{
-		name: "lorem ipsum",
-		desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
-		github: "https://github.com/1hanzla100",
+		name: "Emergehub website",
+		desc: "Design few components and also integrated a payment system in the web application",
+		link: "http://www.emergehub.com.ng/",
 	},
 	{
-		name: "lorem ipsum",
-		desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
-		github: "https://github.com/1hanzla100",
-		link: "https://example.com",
+		name: "Workova",
+		desc: "Created and design major components in the website",
+		link: "https://workova.co/",
+	},
+	{
+		name: "Group Chat Web Application",
+		desc: "Created the user interface as well as the server",
+		link: "https://blissful-hopper-ec5783.netlify.app/",
 	},
 ];
 

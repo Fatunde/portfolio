@@ -25,13 +25,19 @@ const GithubProfileCard = ({prof}) => {
                       <p className="lead text-white mt-3">
                         DISCUSS A PROJECT OR JUST WANT TO SAY HI? MY INBOX IS OPEN FOR ALL
                       </p>
-                      <p className="text-white mt-3">
-                          {prof.bio}
-                      </p>
-                      <div className="my-3 icon-shape bg-gradient-white shadow rounded text-info">
-                        <i className="ni ni-pin-3 text-info mr-2" />
-                        {prof.location}
+
+                <div className="row my-3 icon-shape bg-gradient-white shadow rounded text-info">
+                  <div className="col-lg-5">
+                    <i className="ni ni-pin-3 text-info" />
+                    {prof.location} 21 Ila Orangun Street, Ketu,</div>
+                  <div className="col-lg-3">
+                    <i className="fa fa-phone mr-2" />
+                    08065654671,</div>
+                  <div className="col-lg-4">
+                    <i className="fa fa-envelope-square mr-2" />
+                    fatundedamilare@gmail.com</div>
                         </div>
+
                         <SocialLinks />
                     </Col>                    
                   </Row>

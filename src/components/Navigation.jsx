@@ -82,30 +82,6 @@ const Navigation = () => {
                   <NavItem>
                     <NavLink
                       className="nav-link-icon"
-                      href={socialLinks.instagram}
-                      target="_blank"
-                    >
-                      <i className="fa fa-instagram" />
-                      <span className="nav-link-inner--text d-lg-none ml-2">
-                        Instagram
-                      </span>
-                    </NavLink>
-                  </NavItem>
-                  <NavItem>
-                    <NavLink
-                      className="nav-link-icon"
-                      href={socialLinks.twitter}
-                      target="_blank"
-                    >
-                      <i className="fa fa-twitter-square" />
-                      <span className="nav-link-inner--text d-lg-none ml-2">
-                        Twitter
-                      </span>
-                    </NavLink>
-                  </NavItem>
-                  <NavItem>
-                    <NavLink
-                      className="nav-link-icon"
                       href={socialLinks.github}
                       target="_blank"
                     >
@@ -121,9 +97,20 @@ const Navigation = () => {
                       href={socialLinks.linkedin}
                       target="_blank"
                     >
-                    <i className="fa fa-linkedin" />
+                      <i className="fa fa-linkedin" />
                       <span className="nav-link-inner--text d-lg-none ml-2">
                         Linkedin
+                      </span>
+                    </NavLink>
+                  </NavItem>
+                  <NavItem>
+                    <NavLink
+                      className="nav-link-icon"
+                      href={socialLinks.email}
+                      target="_blank"
+                    >
+                      <span className="btn-inner--icon">
+                        <i className="fa fa-envelope-square" />
                       </span>
                     </NavLink>
                   </NavItem>

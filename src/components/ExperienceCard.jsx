@@ -31,8 +31,8 @@ const ExperienceCard = ({data}) => {
         <Col lg="4">
         <Fade left duration={1000} distance="40px">
             <Card style={{flex: 1}} className="shadow-lg--hover shadow border-0 text-center rounded">
-                <CardHeader style={{background: rgb(colorArrays)}} >
-                    <h5 className="text-white">{data.company}</h5>
+                    <CardHeader style={{ background: "#11cdef" }} >
+                        <h5 className="text-white font-weight-bold">{data.company}</h5>
                 </CardHeader>
                 <CardBody className="py-5">
                     <img ref={imgRef} className=" bg-white rounded-circle mb-3 img-center img-fluid shadow-lg " src={data.companylogo} style={{ width: "100px" }} onLoad={() => getColorArrays()} alt=""/>
