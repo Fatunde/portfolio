@@ -9,7 +9,7 @@ export const greetings = {
 	title: "Hi all, I'm Damilare",
 	description:
 		"A passionate Full Stack Web Developer and Mobile App Developer having an experience of building Web applications with JavaScript / Reactjs / Nodejs / Vue / Laravel  and some other cool libraries and frameworks and Cross Platform Mobile Apps With React Native.",
-	resumeLink: "https://s3.amazonaws.com/archivos-cvonline/assets/pdf/1160901/CV_2021-06-08-1245231.pdf",
+	resumeLink: "https://res.cloudinary.com/strivehumanresources-com/image/upload/v1649027544/resumes/bzhbtvtmpmbmczux28au.pdf",
 };
 
 export const openSource = {
@@ -68,14 +68,6 @@ export const skillsSection = {
 			fontAwesomeClassname: "logos:nodejs-icon",
 		},
 		{
-			skillName: "flutter",
-			fontAwesomeClassname: "logos:flutter",
-		},
-		{
-			skillName: "swift",
-			fontAwesomeClassname: "vscode-icons:file-type-swift",
-		},
-		{
 			skillName: "npm",
 			fontAwesomeClassname: "vscode-icons:file-type-npm",
 		},
@@ -86,10 +78,6 @@ export const skillsSection = {
 		{
 			skillName: "mongoDB",
 			fontAwesomeClassname: "vscode-icons:file-type-mongo",
-		},
-		{
-			skillName: "aws",
-			fontAwesomeClassname: "logos:aws",
 		},
 		{
 			skillName: "firebase",
@@ -103,10 +91,6 @@ export const skillsSection = {
 			skillName: "git",
 			fontAwesomeClassname: "logos:git-icon",
 		},
-		{
-			skillName: "docker",
-			fontAwesomeClassname: "logos:docker-icon",
-		},
 	],
 };
 
@@ -117,11 +101,11 @@ export const SkillBars = [
 	},
 	{
 		Stack: "Backend",
-		progressPercentage: "70",
+		progressPercentage: "80",
 	},
 	{
 		Stack: "Programming",
-		progressPercentage: "60",
+		progressPercentage: "75",
 	},
 ];
 
@@ -149,10 +133,17 @@ export const educationInfo = [
 
 export const experience = [
 	{
+		role: "Front End Developer",
+		company: "Dedukt",
+	//	companylogo: googlelogo,
+		date: "January 2021 – Present",
+		desc: "I worked as team Front End Developer in a great team, which i was able to impact my past experience for the growth and development of the organization",
+	},
+	{
 		role: "Fullstack Developer",
 		company: "Goflux Services Limited",
 	//	companylogo: googlelogo,
-		date: "January 2021 – Present",
+		date: "January 2021 – June 2021",
 		desc: "I worked as a fullstack developer in developing few projects which includes web applications, mobile applications and rest api.",
 	},
 	{
@@ -166,12 +157,22 @@ export const experience = [
 		role: "Software Developer Intern",
 		company: "Ensemble Lab Limited",
 	//	companylogo: airbnb,
-		date: "November 2019 – May 2020",
+		date: "October 2019 – May 2020",
 		desc: "I worked as an intern software developer, which i contributed to few projects and also worked on support",
 	},
 ];
 
 export const projects = [
+	{
+		name: "Dedukt Platform",
+		desc: "Rendered pages, created complex functionalities on the client side",
+		link: "https://dedukt.co",
+	},
+	{
+		name: "Strive Human resouces job board",
+		desc: "Built the server side, render designs pages, and created every functionalities in the client side",
+		link: "https://jobboard.strivehumanresources.com/",
+	},
 	{
 		name: "Goflux Services Limited official website",
 		desc: "Created and design major components in the website",

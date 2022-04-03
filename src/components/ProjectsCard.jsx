@@ -27,7 +27,7 @@ const ProjectsCard = ({ data }) => {
 									</Button>
 								) : null}
 								{data.link ? (
-									<Button
+									<a
 										className="btn-icon"
 										color="success"
 										href={data.link}
@@ -39,7 +39,7 @@ const ProjectsCard = ({ data }) => {
 										<span className="nav-link-inner--text ml-1">
 											Demo
 										</span>
-									</Button>
+									</a>
 								) : null}
 							</div>
 						</div>
