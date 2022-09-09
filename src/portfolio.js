@@ -9,7 +9,8 @@ export const greetings = {
 	title: "Hi all, I'm Damilare",
 	description:
 		"A passionate Full Stack Web Developer and Mobile App Developer having an experience of building Web applications with JavaScript / Reactjs / Nodejs / Vue / Laravel  and some other cool libraries and frameworks and Cross Platform Mobile Apps With React Native.",
-	resumeLink: "https://res.cloudinary.com/strivehumanresources-com/image/upload/v1649027544/resumes/bzhbtvtmpmbmczux28au.pdf",
+	resumeLink: "https://res.cloudinary.com/dedukt/image/upload/v1662714358/id%20card/bl94swvwhnsj2imhclm0.pdf",
+
 };
 
 export const openSource = {
@@ -136,28 +137,42 @@ export const experience = [
 		role: "Front End Developer",
 		company: "Dedukt",
 	//	companylogo: googlelogo,
-		date: "January 2021 – Present",
+		date: "August 2021 – Present",
 		desc: "I worked as team Front End Developer in a great team, which i was able to impact my past experience for the growth and development of the organization",
+		/*descBullets: [
+			"I designed and wrote readable codes that tested and deploy for product usage",
+			"Reviewed software documentation to maintain adherence to industry standards and prevent discrepancies",
+			"Built applications using React, React Native and Node Js.",
+			"Analyzed and interpreted complex technical documents and data models",
+			"Developed and directed software system testing and validation procedures"
+		],*/
 	},
 	{
-		role: "Fullstack Developer",
+		role: "Full Stack Developer",
+		company: "Strive Human Resource",
+	//	companylogo: googlelogo,
+		date: "September 2021 – August 2022",
+		desc: "I rendered styles in client side pages, and made use of my experience to make the features and functionalities works accordingly to the project flow"
+	},
+	{
+		role: "Mobile Application Developer",
 		company: "Goflux Services Limited",
 	//	companylogo: googlelogo,
-		date: "January 2021 – June 2021",
+		date: "January 2021 – July 2021",
 		desc: "I worked as a fullstack developer in developing few projects which includes web applications, mobile applications and rest api.",
 	},
 	{
-		role: "Front-End Developer",
+		role: "Junior Software Developer",
 		company: "Credpal",
 	//	companylogo: github,
-		date: "July 2020 – January 2021",
+		date: "June 2020 – December 2020",
 		desc: "I worked as a front end developer contributing to various project as a team player.",
 	},
 	{
 		role: "Software Developer Intern",
 		company: "Ensemble Lab Limited",
 	//	companylogo: airbnb,
-		date: "October 2019 – May 2020",
+		date: "September 2019 – Jun 2020",
 		desc: "I worked as an intern software developer, which i contributed to few projects and also worked on support",
 	},
 ];
@@ -176,7 +191,7 @@ export const projects = [
 	{
 		name: "Goflux Services Limited official website",
 		desc: "Created and design major components in the website",
-		link: "https://gofluxservices.com.ng/",
+		link: "https://goflux.de/",
 	},
 	{
 		name: "Emergehub website",
@@ -186,7 +201,7 @@ export const projects = [
 	{
 		name: "Workova",
 		desc: "Created and design major components in the website",
-		link: "https://workova.co/",
+		link: "https://insider.workova.co/",
 	},
 	{
 		name: "Group Chat Web Application",
