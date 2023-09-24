@@ -5,7 +5,7 @@ export const greetings = {
   title: "Hi all, I'm Damilare",
   description:
     "A passionate Full Stack Developer having an experience of building Web applications with TypeScript / JavaScript / Reactjs / Nodejs / Vue / Laravel  and some other cool libraries and frameworks and Cross Platform Mobile Apps With React Native.",
-  resumeLink: "https://publuu.com/flip-book/247939/586978/page/1",
+  resumeLink: "https://publuu.com/flip-book/247939/587189",
 };
 
 export const openSource = {
@@ -104,10 +104,10 @@ export const SkillBars = [
 
 export const educationInfo = [
   {
-    schoolName: "Setma Comprehensive College",
-    subHeader: "West Africa Senior Secondary Certificate",
-    duration: "September 2009 - April 2015",
-    desc: "Holding a prefectship position as the school laboratory prefect.",
+    schoolName: "Nigerian Army College of Education and Environmental Studies",
+    subHeader: "Higher National Diploma in Computer Science",
+    duration: "September 2016 - April 2018",
+    desc: "Developed a scheduling system as a project for the computer science department.",
     descBullets: [
       "Joint collaboration with colleagues to build a simple web page",
     ],
@@ -116,7 +116,7 @@ export const educationInfo = [
   {
     schoolName: "Nigerian Army College of Education and Environmental Studies",
     subHeader: "Ordinary National Diploma in Computer Science",
-    duration: "September 2017 - October 2019",
+    duration: "September 2018 - October 2020",
     desc: "Participated in various tech school organization, ...",
     descBullets: [
       "Developed a system that manages the course assignment to all lecturers in the institution",
